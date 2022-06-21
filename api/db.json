@@ -1,0 +1,497 @@
+{
+"events":[
+    {
+    "id": "1",
+    "city": "İstanbul",
+    "category": "MUSIC",
+    "event_start": "2022-06-24T17:00:00Z",
+    "event_end": "2022-06-24T17:00:00Z",
+    "description": "Türk pop müziğinin sevilen sesi İlyas Yalçıntaş, sevenleri ile buluşuyor.",
+    "event_name": "İlyas Yalçıntaş",
+    "image_url": [
+        "https://www.biletix.com/static/images/live/event/eventimages/lyas0JR22.png",
+        "https://i20.haber7.net/resize/1300x731//haber/haber7/photos/2019/35/ilyas_yalcintasin_sahnesine_saldiri_1566898089_51.jpg",
+        "https://yt3.ggpht.com/y12F5SlNGq4B4zA0MGt7OqMDEGnQzA5yGw8GwmzF4Iw5ldtLqGMUac3YAANgLV8XNE7vSNkl=s900-c-k-c0x00ffffff-no-rj"
+    ],
+    "event_venue": "Hayal Kahvesi Aqua Florya",
+    "event_address": "Şenlikköy, Yeşilköy Halkalı Cd. No:93 34153 Bakırköy/İstanbul",
+    "seats": [
+        {
+        "1": "400",
+        "isBooked": "false"
+        },
+        {
+        "2": "400",
+        "isBooked": "false"
+        },
+        {
+        "3": "400",
+        "isBooked": "false"
+        },
+        {
+        "4": "400",
+        "isBooked": "false"
+        },
+        {
+        "5": "400",
+        "isBooked": "false"
+        },
+        {
+        "6": "300",
+        "isBooked": "false"
+        },
+        {
+        "7": "300",
+        "isBooked": "false"
+        },
+        {
+        "8": "300",
+        "isBooked": "false"
+        },
+        {
+        "9": "300",
+        "isBooked": "false"
+        },
+        {
+        "10": "300",
+        "isBooked": "false"
+        },
+        {
+        "11": "200",
+        "isBooked": "false"
+        },
+        {
+        "12": "200",
+        "isBooked": "false"
+        },
+        {
+        "13": "200",
+        "isBooked": "false"
+        },
+        {
+        "14": "200",
+        "isBooked": "false"
+        },
+        {
+        "15": "200",
+        "isBooked": "false"
+        },
+        {
+        "16": "100",
+        "isBooked": "false"
+        },
+        {
+        "17": "100",
+        "isBooked": "false"
+        },
+        {
+        "18": "100",
+        "isBooked": "false"
+        },
+        {
+        "19": "100",
+        "isBooked": "false"
+        },
+        {
+        "20": "100",
+        "isBooked": "false"
+        }
+    ]
+    },
+    {
+    "id": "2",
+    "city": "Ankara",
+    "category": "THEATRE",
+    "event_start": "2022-06-22T20:30:00Z",
+    "event_end": "2022-06-22T22:30:00Z",
+    "description": "Peter Shaffer tarafından kaleme alınan, dünya müzik tarihinin unutulmaz bestecileri Wolfgang Amadeus Mozart ile Antonio Salieri'nin eşsiz hikayesi AMADEUS sahnede!",
+    "event_name": "Amadeus",
+    "image_url": [
+        "https://www.biletix.com/static/images/live/event/eventphotos/amadeus_yeni1.png",
+        "https://www.biletix.com/static/images/live/event/eventphotos/amadeus_yeni2.png",
+        "https://www.biletix.com/static/images/live/event/eventphotos/amadeus_yeni3.png",
+        "https://www.biletix.com/static/images/live/event/eventphotos/amadeus_yeni4.png",
+        "https://www.biletix.com/static/images/live/event/eventphotos/amadeus_yeni5.png",
+        "https://www.biletix.com/static/images/live/event/eventphotos/amadeus_yeni6.png"
+    ],
+    "event_venue": "Zorlu PSM - Turkcell Sahnesi,",
+    "event_address": "Levazım, Koru Sokağı No:2, 34340 Beşiktaş/İstanbul",
+    "seats": [
+        {
+        "1": "400",
+        "isBooked": "false"
+        },
+        {
+        "2": "400",
+        "isBooked": "false"
+        },
+        {
+        "3": "400",
+        "isBooked": "false"
+        },
+        {
+        "4": "400",
+        "isBooked": "false"
+        },
+        {
+        "5": "400",
+        "isBooked": "false"
+        },
+        {
+        "6": "300",
+        "isBooked": "false"
+        },
+        {
+        "7": "300",
+        "isBooked": "false"
+        },
+        {
+        "8": "300",
+        "isBooked": "false"
+        },
+        {
+        "9": "300",
+        "isBooked": "false"
+        },
+        {
+        "10": "300",
+        "isBooked": "false"
+        },
+        {
+        "11": "200",
+        "isBooked": "false"
+        },
+        {
+        "12": "200",
+        "isBooked": "false"
+        },
+        {
+        "13": "200",
+        "isBooked": "false"
+        },
+        {
+        "14": "200",
+        "isBooked": "false"
+        },
+        {
+        "15": "200",
+        "isBooked": "false"
+        },
+        {
+        "16": "100",
+        "isBooked": "false"
+        },
+        {
+        "17": "100",
+        "isBooked": "false"
+        },
+        {
+        "18": "100",
+        "isBooked": "false"
+        },
+        {
+        "19": "100",
+        "isBooked": "false"
+        },
+        {
+        "20": "100",
+        "isBooked": "false"
+        }
+    ]
+    },
+    {
+    "id": "3",
+    "city": "İzmir",
+    "category": "MUSIC",
+    "event_start": "2022-06-24T17:00:00Z",
+    "event_end": "2022-06-24T17:00:00Z",
+    "description": "Türk pop müziğinin sevilen sesi İlyas Yalçıntaş, sevenleri ile buluşuyor.",
+    "event_name": "İlyas Yalçıntaş",
+    "image_url": [
+        "https://www.biletix.com/static/images/live/event/eventimages/lyas0JR22.png",
+        "https://i20.haber7.net/resize/1300x731//haber/haber7/photos/2019/35/ilyas_yalcintasin_sahnesine_saldiri_1566898089_51.jpg",
+        "https://yt3.ggpht.com/y12F5SlNGq4B4zA0MGt7OqMDEGnQzA5yGw8GwmzF4Iw5ldtLqGMUac3YAANgLV8XNE7vSNkl=s900-c-k-c0x00ffffff-no-rj"
+    ],
+    "event_venue": "Hayal Kahvesi Aqua Florya",
+    "event_address": "Şenlikköy, Yeşilköy Halkalı Cd. No:93 34153 Bakırköy/İstanbul",
+    "seats": [
+        {
+        "1": "400",
+        "isBooked": "false"
+        },
+        {
+        "2": "400",
+        "isBooked": "false"
+        },
+        {
+        "3": "400",
+        "isBooked": "false"
+        },
+        {
+        "4": "400",
+        "isBooked": "false"
+        },
+        {
+        "5": "400",
+        "isBooked": "false"
+        },
+        {
+        "6": "300",
+        "isBooked": "false"
+        },
+        {
+        "7": "300",
+        "isBooked": "false"
+        },
+        {
+        "8": "300",
+        "isBooked": "false"
+        },
+        {
+        "9": "300",
+        "isBooked": "false"
+        },
+        {
+        "10": "300",
+        "isBooked": "false"
+        },
+        {
+        "11": "200",
+        "isBooked": "false"
+        },
+        {
+        "12": "200",
+        "isBooked": "false"
+        },
+        {
+        "13": "200",
+        "isBooked": "false"
+        },
+        {
+        "14": "200",
+        "isBooked": "false"
+        },
+        {
+        "15": "200",
+        "isBooked": "false"
+        },
+        {
+        "16": "100",
+        "isBooked": "false"
+        },
+        {
+        "17": "100",
+        "isBooked": "false"
+        },
+        {
+        "18": "100",
+        "isBooked": "false"
+        },
+        {
+        "19": "100",
+        "isBooked": "false"
+        },
+        {
+        "20": "100",
+        "isBooked": "false"
+        }
+    ]
+    },
+    {
+    "id": "4",
+    "city": "Antalya",
+    "category": "MUSIC",
+    "event_start": "2022-06-24T17:00:00Z",
+    "event_end": "2022-06-24T17:00:00Z",
+    "description": "Türk pop müziğinin sevilen sesi İlyas Yalçıntaş, sevenleri ile buluşuyor.",
+    "event_name": "İlyas Yalçıntaş",
+    "image_url": [
+        "https://www.biletix.com/static/images/live/event/eventimages/lyas0JR22.png",
+        "https://i20.haber7.net/resize/1300x731//haber/haber7/photos/2019/35/ilyas_yalcintasin_sahnesine_saldiri_1566898089_51.jpg",
+        "https://yt3.ggpht.com/y12F5SlNGq4B4zA0MGt7OqMDEGnQzA5yGw8GwmzF4Iw5ldtLqGMUac3YAANgLV8XNE7vSNkl=s900-c-k-c0x00ffffff-no-rj"
+    ],
+    "event_venue": "Hayal Kahvesi Aqua Florya",
+    "event_address": "Şenlikköy, Yeşilköy Halkalı Cd. No:93 34153 Bakırköy/İstanbul",
+    "seats": [
+        {
+        "1": "400",
+        "isBooked": "false"
+        },
+        {
+        "2": "400",
+        "isBooked": "false"
+        },
+        {
+        "3": "400",
+        "isBooked": "false"
+        },
+        {
+        "4": "400",
+        "isBooked": "false"
+        },
+        {
+        "5": "400",
+        "isBooked": "false"
+        },
+        {
+        "6": "300",
+        "isBooked": "false"
+        },
+        {
+        "7": "300",
+        "isBooked": "false"
+        },
+        {
+        "8": "300",
+        "isBooked": "false"
+        },
+        {
+        "9": "300",
+        "isBooked": "false"
+        },
+        {
+        "10": "300",
+        "isBooked": "false"
+        },
+        {
+        "11": "200",
+        "isBooked": "false"
+        },
+        {
+        "12": "200",
+        "isBooked": "false"
+        },
+        {
+        "13": "200",
+        "isBooked": "false"
+        },
+        {
+        "14": "200",
+        "isBooked": "false"
+        },
+        {
+        "15": "200",
+        "isBooked": "false"
+        },
+        {
+        "16": "100",
+        "isBooked": "false"
+        },
+        {
+        "17": "100",
+        "isBooked": "false"
+        },
+        {
+        "18": "100",
+        "isBooked": "false"
+        },
+        {
+        "19": "100",
+        "isBooked": "false"
+        },
+        {
+        "20": "100",
+        "isBooked": "false"
+        }
+    ]
+    },
+    {
+    "id": "5",
+    "city": "Muğla",
+    "category": "MUSIC",
+    "event_start": "2022-06-24T17:00:00Z",
+    "event_end": "2022-06-24T17:00:00Z",
+    "description": "Türk pop müziğinin sevilen sesi İlyas Yalçıntaş, sevenleri ile buluşuyor.",
+    "event_name": "İlyas Yalçıntaş",
+    "image_url": [
+        "https://www.biletix.com/static/images/live/event/eventimages/lyas0JR22.png",
+        "https://i20.haber7.net/resize/1300x731//haber/haber7/photos/2019/35/ilyas_yalcintasin_sahnesine_saldiri_1566898089_51.jpg",
+        "https://yt3.ggpht.com/y12F5SlNGq4B4zA0MGt7OqMDEGnQzA5yGw8GwmzF4Iw5ldtLqGMUac3YAANgLV8XNE7vSNkl=s900-c-k-c0x00ffffff-no-rj"
+    ],
+    "event_venue": "Hayal Kahvesi Aqua Florya",
+    "event_address": "Şenlikköy, Yeşilköy Halkalı Cd. No:93 34153 Bakırköy/İstanbul",
+    "seats": [
+        {
+        "1": "400",
+        "isBooked": "false"
+        },
+        {
+        "2": "400",
+        "isBooked": "false"
+        },
+        {
+        "3": "400",
+        "isBooked": "false"
+        },
+        {
+        "4": "400",
+        "isBooked": "false"
+        },
+        {
+        "5": "400",
+        "isBooked": "false"
+        },
+        {
+        "6": "300",
+        "isBooked": "false"
+        },
+        {
+        "7": "300",
+        "isBooked": "false"
+        },
+        {
+        "8": "300",
+        "isBooked": "false"
+        },
+        {
+        "9": "300",
+        "isBooked": "false"
+        },
+        {
+        "10": "300",
+        "isBooked": "false"
+        },
+        {
+        "11": "200",
+        "isBooked": "false"
+        },
+        {
+        "12": "200",
+        "isBooked": "false"
+        },
+        {
+        "13": "200",
+        "isBooked": "false"
+        },
+        {
+        "14": "200",
+        "isBooked": "false"
+        },
+        {
+        "15": "200",
+        "isBooked": "false"
+        },
+        {
+        "16": "100",
+        "isBooked": "false"
+        },
+        {
+        "17": "100",
+        "isBooked": "false"
+        },
+        {
+        "18": "100",
+        "isBooked": "false"
+        },
+        {
+        "19": "100",
+        "isBooked": "false"
+        },
+        {
+        "20": "100",
+        "isBooked": "false"
+        }
+    ]
+    }
+]
+}
