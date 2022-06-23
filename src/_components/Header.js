@@ -1,12 +1,19 @@
-import React, { useState } from "react";
-import { useSelector } from "react-redux";
+import React, { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import { eventActions } from "../_actions/event.actions";
 
-const Header = () => {
+const Header = ({}) => {
+    const dispatch = useDispatch();
     const events = useSelector((state) => state.events);
-    const [startDate, setStartDate] = useState(new Date());
-    const [endDate, setEndDate] = useState(new Date());
+    const [startDate, setStartDate] = useState("");
+    const [endDate, setEndDate] = useState("");
+    const [search, setSearch] = useState("");
+    const [category, setCategory] = useState("");
+    const [city, setCity] = useState("");
+    const [venue, setVenue] = useState("");
+    const [eventName, setEventName] = useState("");
 
     let event_categories =
         events &&
@@ -39,11 +46,34 @@ const Header = () => {
         events.events.length > 0 &&
         events.events.map((event) => event.event_name);
 
+    useEffect(() => {
+        if (search !== "") {
+            dispatch(eventActions.filterBySearch(search));
+        }
+        if (category !== "") {
+            dispatch(eventActions.filterByCategory(category));
+        }
+        if (city !== "") {
+            dispatch(eventActions.filterByCity(city));
+        }
+        if (venue !== "") {
+            dispatch(eventActions.filterByVenue(venue));
+        }
+        if (eventName !== "") {
+            dispatch(eventActions.filterByName(eventName));
+        }
+        if (startDate !== "") {
+            dispatch(eventActions.filterByStartDate(startDate));
+        }
+        if (endDate !== "") {
+            dispatch(eventActions.filterByEndDate(endDate));
+        }
+    }, [search, category, city, venue, eventName, startDate, endDate]);
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">
-                    Navbar
+                <a className="navbar-brand" href="/">
+                    EVENTFINDER
                 </a>
                 <button
                     className="navbar-toggler"
@@ -71,7 +101,7 @@ const Header = () => {
                                 data-bs-toggle="dropdown"
                                 aria-expanded="false"
                             >
-                                Select Category
+                                {category !== "" ? category : "Select Category"}
                             </a>
                             <ul
                                 className="dropdown-menu"
@@ -79,7 +109,12 @@ const Header = () => {
                             >
                                 {uniq_category &&
                                     uniq_category.map((category, i) => (
-                                        <li key={i}>
+                                        <li
+                                            key={i}
+                                            onClick={() =>
+                                                setCategory(category)
+                                            }
+                                        >
                                             <a
                                                 className="dropdown-item"
                                                 href="#"
@@ -100,7 +135,7 @@ const Header = () => {
                                 data-bs-toggle="dropdown"
                                 aria-expanded="false"
                             >
-                                Select Venue
+                                {venue !== "" ? venue : "Select Venue"}
                             </a>
                             <ul
                                 className="dropdown-menu"
@@ -108,7 +143,10 @@ const Header = () => {
                             >
                                 {uniq_venues &&
                                     uniq_venues.map((venue, i) => (
-                                        <li key={i}>
+                                        <li
+                                            onClick={() => setVenue(venue)}
+                                            key={i}
+                                        >
                                             <a
                                                 className="dropdown-item"
                                                 href="#"
@@ -129,7 +167,7 @@ const Header = () => {
                                 data-bs-toggle="dropdown"
                                 aria-expanded="false"
                             >
-                                Select City
+                                {city !== "" ? city : "Select City"}
                             </a>
                             <ul
                                 className="dropdown-menu"
@@ -137,7 +175,10 @@ const Header = () => {
                             >
                                 {uniq_cities &&
                                     uniq_cities.map((city, i) => (
-                                        <li key={i}>
+                                        <li
+                                            onClick={() => setCity(city)}
+                                            key={i}
+                                        >
                                             <a
                                                 className="dropdown-item"
                                                 href="#"
@@ -158,7 +199,7 @@ const Header = () => {
                                 data-bs-toggle="dropdown"
                                 aria-expanded="false"
                             >
-                                Select Event
+                                {eventName !== "" ? eventName : "Select Event"}
                             </a>
                             <ul
                                 className="dropdown-menu"
@@ -166,7 +207,10 @@ const Header = () => {
                             >
                                 {event_names &&
                                     event_names.map((name, i) => (
-                                        <li key={i}>
+                                        <li
+                                            onClick={() => setEventName(name)}
+                                            key={i}
+                                        >
                                             <a
                                                 className="dropdown-item"
                                                 href="#"
@@ -179,7 +223,7 @@ const Header = () => {
                         </li>
                     </ul>
                     <div className="d-flex">
-                        <div className="">
+                        <div className="date_box">
                             <a className="" href="#">
                                 Start Date
                                 <DatePicker
@@ -192,10 +236,11 @@ const Header = () => {
                                 />
                             </a>
                         </div>
-                        <div className="">
+                        <div className="date_box">
                             <a className="" href="#">
                                 End Date
                                 <DatePicker
+                                    placeholder={new Date()}
                                     className="ms-1"
                                     selected={endDate}
                                     onChange={(date) => setEndDate(date)}
@@ -214,6 +259,7 @@ const Header = () => {
                             type="search"
                             placeholder="Search Event"
                             aria-label="Search"
+                            onChange={(e) => setSearch(e.target.value)}
                         />
                         <button
                             className="btn btn-outline-success"

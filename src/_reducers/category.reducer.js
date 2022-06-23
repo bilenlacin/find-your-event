@@ -1,17 +1,22 @@
 import { eventConstants } from "../_constants";
 
-export function eventReducer(state = { event: null }, action) {
+export function categoryReducer(
+    state = {
+        events: []
+    },
+    action
+) {
     switch (action.type) {
-        case eventConstants.GET_EVENT_DETAILS_REQUEST:
+        case eventConstants.GET_EVENT_CATEGORIES_REQUEST:
             return {
                 loading: true
             };
-        case eventConstants.GET_EVENT_DETAILS_SUCCESS:
+        case eventConstants.GET_EVENT_CATEGORIES_SUCCESS:
             return {
                 loading: false,
-                event: action.event
+                events: action.events
             };
-        case eventConstants.GET_EVENT_DETAILS_FAILURE:
+        case eventConstants.GET_EVENT_CATEGORIES_FAILURE:
             return {
                 error: action.error
             };

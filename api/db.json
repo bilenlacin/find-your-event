@@ -4,8 +4,8 @@
     "id": "1",
     "city": "İstanbul",
     "category": "MUSIC",
-    "event_start": "2022-06-24T17:00:00Z",
-    "event_end": "2022-06-24T17:00:00Z",
+    "event_start": "2022-07-24T17:00:00Z",
+    "event_end": "2022-07-24T17:00:00Z",
     "description": "Türk pop müziğinin sevilen sesi İlyas Yalçıntaş, sevenleri ile buluşuyor.",
     "event_name": "İlyas Yalçıntaş",
     "image_url": [
@@ -101,17 +101,12 @@
     "id": "2",
     "city": "Ankara",
     "category": "THEATRE",
-    "event_start": "2022-06-22T20:30:00Z",
-    "event_end": "2022-06-22T22:30:00Z",
+    "event_start": "2022-07-22T20:30:00Z",
+    "event_end": "2022-07-22T22:30:00Z",
     "description": "Peter Shaffer tarafından kaleme alınan, dünya müzik tarihinin unutulmaz bestecileri Wolfgang Amadeus Mozart ile Antonio Salieri'nin eşsiz hikayesi AMADEUS sahnede!",
     "event_name": "Amadeus",
     "image_url": [
-        "https://tiyatrolar.com.tr/files/activity/a/amadeus-2/image/amadeus-2.jpg",
-        "https://www.biletix.com/static/images/live/event/eventphotos/amadeus_yeni2.png",
-        "https://www.biletix.com/static/images/live/event/eventphotos/amadeus_yeni3.png",
-        "https://www.biletix.com/static/images/live/event/eventphotos/amadeus_yeni4.png",
-        "https://www.biletix.com/static/images/live/event/eventphotos/amadeus_yeni5.png",
-        "https://www.biletix.com/static/images/live/event/eventphotos/amadeus_yeni6.png"
+        "https://tiyatrolar.com.tr/files/activity/a/amadeus-2/image/amadeus-2.jpg"
     ],
     "event_venue": "Zorlu PSM - Turkcell Sahnesi,",
     "event_address": "Levazım, Koru Sokağı No:2, 34340 Beşiktaş/İstanbul",
@@ -200,19 +195,17 @@
     },
     {
     "id": "3",
-    "city": "İzmir",
-    "category": "MUSIC",
-    "event_start": "2022-06-24T17:00:00Z",
-    "event_end": "2022-06-24T17:00:00Z",
-    "description": "Türk pop müziğinin sevilen sesi İlyas Yalçıntaş, sevenleri ile buluşuyor.",
-    "event_name": "İlyas Yalçıntaş",
+    "city": "Ankara",
+    "category": "CARTOON",
+    "event_start": "2022-07-28T17:00:00Z",
+    "event_end": "2022-07-28T17:00:00Z",
+    "description": "5-14 yaş arası çocuklar! Türkiye’nin ilk çizgi film deneyim alanında eğlence dolu maceralara katılmaya hazır mısınız?Çocuğunuz Kral Şakir çizgi filminin alanlarında 50 dakika sürecek bir maceraya katılırken ; Mirket’in laboratuvarında icatlar yapacak, Fil Necati’nin youtube odasında dünyayı kurtaracak fikirlerini anlatacak,Kral Şakir Sokağından geçecek, Bermuda Üçgeni’nde gemiyi korsanlardan kurtaracak ve Korsanlar Adasında canavarı yakalayacak. Tüm bu macera süresince yaşadıklarını dilerseniz sizde alanımızın girişinde bulunan ekranlardan izleyebileceksiniz .",
+    "event_name": "Kral Şakir Macera Dünyası",
     "image_url": [
-        "https://www.biletix.com/static/images/live/event/eventimages/lyas0JR22.png",
-        "https://i20.haber7.net/resize/1300x731//haber/haber7/photos/2019/35/ilyas_yalcintasin_sahnesine_saldiri_1566898089_51.jpg",
-        "https://yt3.ggpht.com/y12F5SlNGq4B4zA0MGt7OqMDEGnQzA5yGw8GwmzF4Iw5ldtLqGMUac3YAANgLV8XNE7vSNkl=s900-c-k-c0x00ffffff-no-rj"
+        "https://upload.wikimedia.org/wikipedia/tr/d/d9/Kral%C5%9Eakir_logo.jpg"
     ],
-    "event_venue": "Hayal Kahvesi Aqua Florya",
-    "event_address": "Şenlikköy, Yeşilköy Halkalı Cd. No:93 34153 Bakırköy/İstanbul",
+    "event_venue": "Kral Şakir Macera Dünyası",
+    "event_address": "Oran, kudüs cd. One Tower AVM G2 Katında ÇANKAYA / Ankara",
     "seats": [
         {
         "1": "400",
@@ -298,19 +291,17 @@
     },
     {
     "id": "4",
-    "city": "Antalya",
+    "city": "İzmir",
     "category": "MUSIC",
-    "event_start": "2022-06-24T17:00:00Z",
-    "event_end": "2022-06-24T17:00:00Z",
-    "description": "Türk pop müziğinin sevilen sesi İlyas Yalçıntaş, sevenleri ile buluşuyor.",
-    "event_name": "İlyas Yalçıntaş",
+    "event_start": "2022-07-14T17:00:00Z",
+    "event_end": "2022-07-14T17:00:00Z",
+    "description": "Türk Eğitim Vakfı’nın 55. kuruluş yıldönümü kutlamak amacıyla gerçekleştirilecek Şevval Sam konserinin geliri ile maddi desteğe ihtiyaç duyan başarılı öğrencilere burs desteği sağlanacaktır. TEV Eğitime Destek korosunun da sahne alacağı bu konser ile geleceğimizin mimarı gençlerimizin hayatlarına dokunacak, onlara umut olacağız.",
+    "event_name": "Şevval Sam",
     "image_url": [
-        "https://www.biletix.com/static/images/live/event/eventimages/lyas0JR22.png",
-        "https://i20.haber7.net/resize/1300x731//haber/haber7/photos/2019/35/ilyas_yalcintasin_sahnesine_saldiri_1566898089_51.jpg",
-        "https://yt3.ggpht.com/y12F5SlNGq4B4zA0MGt7OqMDEGnQzA5yGw8GwmzF4Iw5ldtLqGMUac3YAANgLV8XNE7vSNkl=s900-c-k-c0x00ffffff-no-rj"
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/%C5%9Eevval_Sam_09.jpg/1200px-%C5%9Eevval_Sam_09.jpg"
     ],
-    "event_venue": "Hayal Kahvesi Aqua Florya",
-    "event_address": "Şenlikköy, Yeşilköy Halkalı Cd. No:93 34153 Bakırköy/İstanbul",
+    "event_venue": "Çeşme Açıkhava Tiyatrosu,",
+    "event_address": "İsmet İnönü Mah. 2053 Sok. 2A 35930 Çeşme /İzmir ÇEŞME / İzmir",
     "seats": [
         {
         "1": "400",
@@ -396,19 +387,17 @@
     },
     {
     "id": "5",
-    "city": "Muğla",
+    "city": "İstanbul",
     "category": "MUSIC",
     "event_start": "2022-06-24T17:00:00Z",
     "event_end": "2022-06-24T17:00:00Z",
-    "description": "Türk pop müziğinin sevilen sesi İlyas Yalçıntaş, sevenleri ile buluşuyor.",
-    "event_name": "İlyas Yalçıntaş",
+    "description": "Yalın’la Bir Yaz Akşamı “Unutulmaz Şarkılar” 29 Temmuz’da Maximum Uniq Açıkhava’da! 18 yıllık kariyer yolculuğu boyunca sevenlerinin kalbinde taht kuran ve seslendirdiği kendine özgü aşk şarkıları, büyüleyici sesi ve besteleri ile günümüze kadar milyonlarca dinleyici kitlesi yakalayan Yalın, bu sezon sahnelerde fırtınalar estiren “Unutulmaz Şarkılar” konser serisine Bir Yaz Akşamı “Unutulmaz Şarkılar” olarak Maximum Uniq Açıkhava’da devam ediyor.Yalın’ın görkemli sahne tasarımı ve bigband orkestrasıyla hem kalbimizde iz bırakan “Unutulmaz Şarkılar”ı, hem de en sevilen hitlerini bu defa yıldızların altında seslendireceği konser serisi, 29 Temmuz Cuma günü Maximum Uniq Açıkhava’da sevenleriyle buluşacak.",
+    "event_name": "Yalın - Bir Yaz Akşamı 'Unutulmaz Şarkılar'",
     "image_url": [
-        "https://www.biletix.com/static/images/live/event/eventimages/lyas0JR22.png",
-        "https://i20.haber7.net/resize/1300x731//haber/haber7/photos/2019/35/ilyas_yalcintasin_sahnesine_saldiri_1566898089_51.jpg",
-        "https://yt3.ggpht.com/y12F5SlNGq4B4zA0MGt7OqMDEGnQzA5yGw8GwmzF4Iw5ldtLqGMUac3YAANgLV8XNE7vSNkl=s900-c-k-c0x00ffffff-no-rj"
+        "https://ia.tmgrup.com.tr/74504e/1160/650/0/0/1500/840?u=https://i.tmgrup.com.tr/rt/2022/01/22/yalin-bu-da-gecer-mi-sevgilim-1642847376025.jpg"
     ],
-    "event_venue": "Hayal Kahvesi Aqua Florya",
-    "event_address": "Şenlikköy, Yeşilköy Halkalı Cd. No:93 34153 Bakırköy/İstanbul",
+    "event_venue": "Maximum Uniq Açıkhava",
+    "event_address": "UNIQ İstanbul - Huzur Mah. Maslak Ayazağa Cad. Ayazağa Cendere Yolu No: 4 SARIYER / İstanbul",
     "seats": [
         {
         "1": "400",

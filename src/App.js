@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Footer from "./_components/Footer";
 import Header from "./_components/Header";
+import EventDetail from "./_pages/EventDetail";
 import Home from "./_pages/Home";
 
 export default function App() {
@@ -9,12 +10,9 @@ export default function App() {
         <Router>
             <Header />
             <Switch>
-                {/* <Route path="/about">
-                    <About />
+                <Route path="/events/:id">
+                    <EventDetail />
                 </Route>
-                <Route path="/users">
-                    <Users />
-                </Route> */}
                 <Route path="/">
                     <Home />
                 </Route>

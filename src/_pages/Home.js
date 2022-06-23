@@ -11,15 +11,15 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
+import Event from "../_components/Event";
 
 const Home = () => {
     const dispatch = useDispatch();
     const events = useSelector((state) => state.events);
-    console.log(events);
 
     let images = [];
-    let event_images =
-        events &&
+
+    events &&
         !events.loading &&
         events.events &&
         events.events.length > 0 &&
@@ -35,7 +35,7 @@ const Home = () => {
     return (
         <div className="container">
             <div className="row">
-                <div className="col">
+                <div className="col mt-4">
                     <Swiper
                         cssMode={true}
                         navigation={true}
@@ -46,12 +46,19 @@ const Home = () => {
                         className="mySwiper"
                     >
                         {images.length > 0 &&
-                            images.map((image) => (
+                            images.map((image, i) => (
                                 <SwiperSlide>
-                                    <img alt="event" src={image} />
+                                    <img key={i} alt="event" src={image} />
                                 </SwiperSlide>
                             ))}
                     </Swiper>
+                </div>
+                <div className="cart-items">
+                    {events &&
+                        !events.loading &&
+                        events.events &&
+                        events.events.length > 0 &&
+                        events.events.map((event) => <Event event={event} />)}
                 </div>
             </div>
         </div>
