@@ -47,9 +47,8 @@ const Header = ({}) => {
         events.events.map((event) => event.event_name);
 
     useEffect(() => {
-        if (search !== "") {
-            dispatch(eventActions.filterBySearch(search));
-        }
+        dispatch(eventActions.filterBySearch(search));
+
         if (category !== "") {
             dispatch(eventActions.filterByCategory(category));
         }
@@ -261,12 +260,6 @@ const Header = ({}) => {
                             aria-label="Search"
                             onChange={(e) => setSearch(e.target.value)}
                         />
-                        <button
-                            className="btn btn-outline-success"
-                            type="submit"
-                        >
-                            Search
-                        </button>
                     </form>
                 </div>
             </div>

@@ -16,53 +16,32 @@ export const eventActions = {
 function getAll() {
     return (dispatch) => {
         dispatch(request());
-        dispatch(requestCategory());
+
         eventService
             .getAll()
             .then((res) => {
                 dispatch(success(res.data));
-                dispatch(successCategory(res.data));
             })
             .catch((err) => {
                 dispatch(failure(err));
-                dispatch(failureCategory(err));
             });
     };
 
     function request() {
         return {
-            type: eventConstants.GETALL_EVENT_REQUEST
+            type: eventConstants.GETALL_REQUEST
         };
     }
     function success(events) {
         return {
-            type: eventConstants.GETALL_EVENT_SUCCESS,
+            type: eventConstants.GETALL_SUCCESS,
             events
         };
     }
 
     function failure(error) {
         return {
-            type: eventConstants.GETALL_EVENT_FAILURE,
-            error
-        };
-    }
-
-    function requestCategory() {
-        return {
-            type: eventConstants.GET_EVENT_CATEGORIES_REQUEST
-        };
-    }
-    function successCategory(events) {
-        return {
-            type: eventConstants.GET_EVENT_CATEGORIES_SUCCESS,
-            events
-        };
-    }
-
-    function failureCategory(error) {
-        return {
-            type: eventConstants.GET_EVENT_CATEGORIES_FAILURE,
+            type: eventConstants.GETALL_FAILURE,
             error
         };
     }

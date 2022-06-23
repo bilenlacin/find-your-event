@@ -21,7 +21,6 @@ function getAll() {
 }
 
 function getDetails(id) {
-    console.log(id);
     return new Promise((resolve, reject) => {
         axios
             .get(baseUrl + `events/${id}`)

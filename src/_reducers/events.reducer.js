@@ -14,16 +14,16 @@ export function eventsReducer(
     action
 ) {
     switch (action.type) {
-        case eventConstants.GETALL_EVENT_REQUEST:
+        case eventConstants.GETALL_REQUEST:
             return {
                 loading: true
             };
-        case eventConstants.GETALL_EVENT_SUCCESS:
+        case eventConstants.GETALL_SUCCESS:
             return {
                 loading: false,
                 events: action.events
             };
-        case eventConstants.GETALL_EVENT_FAILURE:
+        case eventConstants.GETALL_FAILURE:
             return {
                 error: action.error
             };
@@ -59,13 +59,21 @@ export function eventsReducer(
                     )
                 ]
             };
-        case eventConstants.FILTER_BY_DATE:
+        case eventConstants.FILTER_BY_STARTDATE:
+            console.log(action.startDate);
             return {
                 events: [
                     ...state.events.filter(
-                        (event) =>
-                            event.event_date >= action.startDate &&
-                            event.event_date <= action.endDate
+                        (event) => event.event_date >= action.startDate
+                    )
+                ]
+            };
+
+        case eventConstants.FILTER_BY_ENDDATE:
+            return {
+                events: [
+                    ...state.events.filter(
+                        (event) => event.event_date <= action.endDate
                     )
                 ]
             };
